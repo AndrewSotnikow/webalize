@@ -1,6 +1,6 @@
-import { CollectionConfig } from 'payload'
+import { CollectionConfig } from 'payload';
 
-export const Posts: CollectionConfig = {
+const Posts: CollectionConfig = {
   slug: 'posts',
   admin: {
     useAsTitle: 'title',
@@ -45,6 +45,6 @@ export const Posts: CollectionConfig = {
       relationTo: 'media',
     },
   ],
-}
+};
 
-
+export default Posts;

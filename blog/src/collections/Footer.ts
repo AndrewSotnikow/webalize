@@ -1,4 +1,4 @@
-import { GlobalConfig } from 'payload'
+import { GlobalConfig } from 'payload';
 
 export const Footer: GlobalConfig = {
   slug: 'footer',
@@ -16,5 +16,4 @@ export const Footer: GlobalConfig = {
       ],
     },
   ],
-}
-
+};
